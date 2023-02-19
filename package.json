@@ -1,0 +1,27 @@
+{
+  "name": "login-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Kevin Lee",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "connect-flash": "*",
+    "ejs": "*",
+    "express": "*",
+    "express-ejs-layouts": "*",
+    "express-session": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-local": "*"
+  },
+
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
